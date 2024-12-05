@@ -47,60 +47,16 @@ CSGHub服务需要对ECS、VPC等资源进行访问和创建操作，若您使�
 3. 选择 VPC、交换机
 ![ VPC及交换机选择](./images/vpc选择.png)
 
-### 部署参数说明
-
-`(部署参数说明内容)`
-
-```
-eg:
-
-您在创建服务实例的过程中，需要配置服务实例信息。下文介绍云XR实时渲染平台服务实例输入参数的详细信息。
-
-| 参数组 | 参数项 | 示例 | 说明 |
-| --- | --- | --- | --- |
-| 服务实例名称 |  | test | 实例的名称 |
-| 地域 |  | 华北2（北京） | 选中服务实例的地域，建议就近选中，以获取更好的网络延时。 |
-```
-
-### 验证结果
-
-`(验证结果内容)`
-
-```
-eg:
-
-1. 查看服务实例。服务实例创建成功后，部署时间大约需要2分钟。部署完成后，页面上可以看到对应的服务实例。 
-2. 通过服务实例访问TuGraph。进入到对应的服务实例后，可以在页面上获取到web、rpc、ssh共3种使用方式。
-```
-
-### 使用Demo
-
-`(服务使用说明内容)`
-
-```
-eg:
-
-请访问Demo官网了解如何使用：[使用文档](https://www.aliyun.com)
-```
-
-## 问题排查
-
-`(服务使用说明内容)`
-
-```
-eg:
-
-请访问[Demo的问题排查链接](https://www.aliyun.com)获取帮助。
-```
+### 使用说明
+1. 根据下方信息联系贝联珠贯，获取登录账号及License
+2. 部署完成后，通过公网IP或ECS实例的内网IP访问 Sky CostPilot 服务。
+3. 登录 Sky CostPilot 服务后，页面会自动跳转到 License 注册页面，按照页面提示完成 License 注册。
+4. 完成 License 注册后，即可使用 Sky CostPilot 服务。可以关注贝联珠贯微信视频号获取产品demo或联系我们。
 
 ## 联系我们
 
-欢迎访问Demo官网（[https://www.aliyun.com](https://www.aliyun.com)）了解更多信息。
-
-联系邮箱：[https://www.aliyun.com](mailto:https://www.aliyun.com)
-
-社区版开源地址：[https://github.com/](https://github.com/)
+欢迎访问贝联珠贯官网（[https://www.lccomputing.com/](https://www.lccomputing.com/)）了解更多信息。
 
 扫码关注微信公众号，技术博客、活动通知不容错过：
 
-`(添加二维码图片)`
+![微信公众号](./images/微信公众号.png)
