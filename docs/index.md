@@ -20,23 +20,22 @@ Sky CostPilot在计算巢上的费用主要涉及：
 
 ## 部署架构
 
-`(部署概述内容)`
+![部署架构](./images/Sky-CostPilot_deployment.png)
 
 ## RAM账号所需权限
 
 `(权限策略内容)`
 
 ```
-eg: 
-
-Demo服务需要对ECS、VPC等资源进行访问和创建操作，若您使用RAM用户创建服务实例，需要在创建服务实例前，对使用的RAM用户的账号添加相应资源的权限。添加RAM权限的详细操作，请参见[为RAM用户授权](https://help.aliyun.com/document_detail/121945.html)。所需权限如下表所示。
-
+CSGHub服务需要对ECS、VPC等资源进行访问和创建操作，若您使用RAM用户创建服务实例，需要在创建服务实例前，对使用的RAM用户的账号添加相应资源的权限。添加RAM权限的详细操作，请参见[为RAM用户授权](https://help.aliyun.com/document_detail/121945.html)。所需权限如下表所示。
+```
 
 | 权限策略名称 | 备注 |
 | --- | --- |
 | AliyunECSFullAccess | 管理云服务器服务（ECS）的权限 |
+| AliyunVPCFullAccess | 管理专有网络（VPC）的权限 |
+| AliyunComputeNestUserFullAccess | 管理计算巢服务（ComputeNest）的用户侧权限 |
 
-```
 
 ## 部署流程
 
